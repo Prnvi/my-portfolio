@@ -14,3 +14,16 @@
     }
 
 }
+
+.content-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.content-div{
+    background-image: linear-gradient(
+        to right,
+        rgba(112, 157, 225, 0.8)
+    )
+}
