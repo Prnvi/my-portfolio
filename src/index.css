@@ -14,6 +14,14 @@
     }
 
 }
+.bg-img{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+        to right,
+        rgba(112, 157, 225, 0.8)
+    )
+    
+}
 
 .content-div{
     background-repeat: no-repeat;

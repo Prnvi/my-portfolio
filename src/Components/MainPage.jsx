@@ -6,7 +6,7 @@ const MainPage = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f] ">
       <div
-        className="bg-center bg-cover h-screen  greyscale-0 "
+        className="bg-center bg-cover h-screen  greyscale-0 bg-img"
         style={{ backgroundImage: `url(${bgImg})` }}
         //  style={{
         //     backgroundImage:
