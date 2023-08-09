@@ -9,6 +9,10 @@ module.exports = {
       // backgroundImage: {
       //   'hero': "url('./src/assets/bgclr.jpg')",
       // },
+      fontFamily:{
+        'Poppins':['Poppins'],
+        
+      }
     },
   },
   plugins: [],

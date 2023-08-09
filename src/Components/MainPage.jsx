@@ -13,7 +13,7 @@ const MainPage = () => {
         //       "url('https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80 ')",
         //   }}>
       >
-        <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-white ">
+        <div className="max-w-[1000px] mx-auto sm:px-30 md:px-10 flex flex-col justify-center h-full text-white ">
           <p className="text-pink-600">Hi, my name is </p>
           <h1 className="text-4xl sm:text-7xl font-bold text-white">Pranavi</h1>
           <h2 className="text-4xl sm:text-7xl font-bold text-white">

@@ -9,7 +9,7 @@ const Work = () => {
           <p className="text-4xl font-bold inline  border-b-4 text-grey-300 border-pink-600">
             Work
           </p>
-          <p className="py-6"> //work here</p>
+          <p className="py-6"> </p>
         </div>
         <div className="grid sm:grid-cols-2  md:grid-cols-3 gap-4">
           <div
