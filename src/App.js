@@ -5,13 +5,15 @@ import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Work from './Components/Work';
 import SkiilsProfile from './Components/SkiilsProfile';
+import AboutNew from './Components/AboutNew';
 function App() {
   return (
     <div className="App">
        <Router classname="w-screen">
           <NavBar />
           <MainPage/>
-          <About/>
+          {/* <About/> */}
+          <AboutNew/>
           <SkiilsProfile/>
           <Skills/>
           <Work/>
