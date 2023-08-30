@@ -3,7 +3,7 @@ import img from "../assets/IMG_me.jpeg";
 
 const AboutNew = () => {
   return (
-    <div className="w-full bg-white text-center sm:mx-5 md:mx-0 mt-28 xxs:px-20 md:px-0">
+    <div className="w-full bg-white text-center  md:mx-0 mt-28 xxs:px-20 md:px-0">
       <div>
         <div>
           <p className=" text-lg font-Poppins tracking-widest font-semibold inline text-[#FF0077]  ">
