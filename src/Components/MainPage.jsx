@@ -7,7 +7,8 @@ const MainPage = () => {
     <div name="home" className="w-full h-screen bg-[#0a192f] ">
       <div
         className="bg-center bg-cover h-screen bg-img"
-        style={{ backgroundImage: `url(${bgImg})` }}>
+        style={{ backgroundImage: `url(${bgImg})` }}
+      >
         <div className="max-w-[1000px] mx-auto sm:px-30 md:px-10 flex flex-col text-center justify-center h-full text-white ">
           <p className="text-[#FF0077] text-xl font-Poppins tracking-widest font-bold inline">
             HELLO, WORLD.{" "}
@@ -15,7 +16,7 @@ const MainPage = () => {
           <h1 className="xs:text-5xl md:text-[90px] font-extrabold text-white tracking-wider ">
             I'm Pranavi.
           </h1>
-          <h4 className="md:text-lg sm:text-xl font-light tracking-widest text-white pb-3">
+          <h4 className="text-lg font-light tracking-widest text-white pb-3">
             FULL-STACK DEVELOPER{" "}
           </h4>
           {/* <p className="text-white py-4 max-w-[700px]">

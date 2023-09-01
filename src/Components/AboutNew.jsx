@@ -11,7 +11,7 @@ const AboutNew = () => {
           </p>
         </div>
         <div className="pt-5 sm:pb-5 md:pb-0">
-          <p className="sm:text-right xs:text-3xl md:text-4xl font-semibold  font-Poppins tracking-wide  inline text-[#313131]">
+          <p className=" xs:text-2xl md:text-4xl font-semibold  font-Poppins tracking-wide  inline text-[#313131]">
             Let me introduce myself.
           </p>
         </div>
@@ -29,7 +29,7 @@ const AboutNew = () => {
           />
         </div>
         <div className=" md:w-[600px] md:h-[200px] items-center m-auto sm:mx-10 md:mx-0 ">
-          <p className="m-10 xs:mx-2 md:mx-0 text-[#888888] font-Poppins xs:text-sm md:text-lg">
+          <p className="m-10 xxs:mx-2 md:mx-0 text-[#888888] font-Poppins xs:text-sm md:text-lg">
           I’m a full-stack developer specializing in building (and
             occasionally designing) exceptional digital experiences. Currently,
             I’m focused on building responsive full-stack web applications.

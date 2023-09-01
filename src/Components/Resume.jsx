@@ -26,7 +26,7 @@ const Resume = () => {
           </p>
         </div>
 
-        <div className="py-10">
+        <div className="pt-10">
           <p className=" text-2xl font-Poppins tracking-wide font-semibold inline text-[#FF0077]  ">
             Work Experience
           </p>

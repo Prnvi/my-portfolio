@@ -59,13 +59,41 @@ function ChartBoard() {
           </div> */}
           <Template
             titleHeadingLeft={"FullStack Developer Intern"}
-            startAndEndDate={"April 22 -June 22"}
-            titleHeadingRight={"ABCD"}
+            startAndEndDate={"April 23 - June 23"}
+            titleHeadingRight={"Linked.Farm"}
             paragraph={
               "I have completed my 3 months of internship at a farming based firm called Linked.Farm, where I had an opportunity to work for their website from scratch. During this Internship I had been part of developing the website of Linked.Farm with React, JavaScript, tailwindCSS, Rest API, designed the figma models according to the client requirements."
             }
           />
-          <div className="rounded-full bg-black  w-10 h-10 absolute left-[36%] top-[69%] transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
+          <div className="rounded-full bg-black  w-10 h-10 absolute left-[36%] top-[2%] transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
+            <span>
+              <FaGraduationCap className="text-white " />
+            </span>
+          </div>
+
+          <Template
+            titleHeadingLeft={"FullStack Developer Trainee"}
+            startAndEndDate={"Sep 22 - April 23"}
+            titleHeadingRight={"Becode"}
+            paragraph={
+              "I have completed my 3 months of internship at a farming based firm called Linked.Farm, where I had an opportunity to work for their website from scratch. During this Internship I had been part of developing the website of Linked.Farm with React, JavaScript, tailwindCSS, Rest API, designed the figma models according to the client requirements."
+            }
+          />
+          <div className="rounded-full bg-black  w-10 h-10 absolute left-[36%] top-[37%] transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
+            <span>
+              <FaGraduationCap className="text-white " />
+            </span>
+          </div>
+
+          <Template
+            titleHeadingLeft={"Fircosoft Consultant"}
+            startAndEndDate={"Sep 22 - April 23"}
+            titleHeadingRight={"Birlasoft India"}
+            paragraph={
+              "I have completed my 3 months of internship at a farming based firm called Linked.Farm, where I had an opportunity to work for their website from scratch. During this Internship I had been part of developing the website of Linked.Farm with React, JavaScript, tailwindCSS, Rest API, designed the figma models according to the client requirements."
+            }
+          />
+          <div className="rounded-full bg-black  w-10 h-10 absolute left-[36%] top-[72%] transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
             <span>
               <FaGraduationCap className="text-white " />
             </span>

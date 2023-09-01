@@ -20,6 +20,7 @@ const Template = ({
               <h4 className="text-black font-bold mb-4  text-xl">
                 {titleHeadingLeft}{" "}
               </h4>
+              
               <p className="text-[#888888]">{startAndEndDate}</p>
             </div>
           </div>
@@ -34,7 +35,8 @@ const Template = ({
               <h4 className="text-black font-bold mb-4  text-xl">
                 {titleHeadingRight}{" "}
               </h4>
-              <p className="text-[#888888]">{paragraph}</p>
+              <hr className="h-[4px] bg-[#d0cdcd] my-5 w-[60px]"></hr>
+              <p className="text-[#888888] md:text-base">{paragraph}</p>
             </div>
           </div>
         </div>
