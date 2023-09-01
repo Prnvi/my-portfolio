@@ -13,7 +13,7 @@ const Resume = () => {
         </div>
 
         <div className="pt-5 sm:pb-5 md:pb-0">
-          <p className=" text-center text-4xl font-semibold  font-Poppins tracking-wide  inline text-[#313131]">
+          <p className=" text-center xs:text-2xl md:text-4xl font-semibold  font-Poppins tracking-wide  inline text-[#313131]">
             More of my credentials.
           </p>
         </div>

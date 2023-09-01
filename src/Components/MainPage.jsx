@@ -12,7 +12,7 @@ const MainPage = () => {
           <p className="text-[#FF0077] text-xl font-Poppins tracking-widest font-bold inline">
             HELLO, WORLD.{" "}
           </p>
-          <h1 className="sm:text-lg md:text-[90px] font-extrabold text-white tracking-wider ">
+          <h1 className="xs:text-5xl md:text-[90px] font-extrabold text-white tracking-wider ">
             I'm Pranavi.
           </h1>
           <h4 className="md:text-lg sm:text-xl font-light tracking-widest text-white pb-3">

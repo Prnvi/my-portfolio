@@ -8,14 +8,14 @@ const SkiilsProfile = () => {
     >
       <div className=" sm:flex sm:flex-col lg:grid lg:grid-cols-2 gap-5 justify-center  w-full h-full  mx-auto ">
         <div className="md:w-[450px] mx-auto">
-          <div className="profileDiv md:px-5 xxs:px-20">
+          <div className="profileDiv md:px-5 xxs:px-9 ">
             <div className="flex items-center xxs:justify-center md:justify-start">
               <p className=" sm:align-middle text-xl font-Poppins tracking-widest font-bold inline text-[#313131] ">
                 PROFILE
               </p>
             </div>
 
-            <p className="text-[#888888] py-5">
+            <p className="text-[#888888] py-5 xs:text-center md:text-left">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
               maxime similique laboriosam debitis porro delectus quibusdam quo
               at cumque. Qui, ea.
@@ -61,14 +61,14 @@ const SkiilsProfile = () => {
         </div>
 
         <div className="md:w-[450px] mx-auto">
-          <div className="skillDiv md:px-5 xxs:px-20">
+          <div className="skillDiv md:px-5 xxs:px-9">
             <div className="flex items-center xxs:justify-center md:justify-start">
               <p className="text-xl font-Poppins tracking-widest font-bold inline  text-[#313131]">
                 SKILLS
               </p>
             </div>
 
-            <p className="text-[#888888] py-5">
+            <p className="text-[#888888] py-5 xxs:text-center md:text-left">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
               maxime similique laboriosam debitis porro delectus quibusdam quo
               at cumque. Qui, ea.
