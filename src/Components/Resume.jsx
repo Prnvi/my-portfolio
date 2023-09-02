@@ -31,8 +31,9 @@ const Resume = () => {
             Work Experience
           </p>
         </div>
-                <ChartBoard/>
-       
+        <ChartBoard />
+
+        
       </div>
     </div>
   );
