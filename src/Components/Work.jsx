@@ -3,14 +3,26 @@ import LFImg from "../assets/Linked.FarmSite.png";
 
 const Work = () => {
   return (
-    <div className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
-      <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline  border-b-4 text-grey-300 border-pink-600">
-            Work
+    <div className="w-full bg-white text-center  md:mx-0 mt-28 xxs:px-4 md:px-0">
+      <div className="w-3/4 mx-auto  ">
+        <div>
+          <p className=" text-lg font-Poppins tracking-widest font-semibold inline text-[#FF0077]  ">
+            WORK
           </p>
-          <p className="py-6"> </p>
         </div>
+        <div className="pt-5 sm:pb-7 ">
+          <p className=" xs:text-2xl md:text-4xl font-semibold  font-Poppins tracking-wide  inline text-[#313131]">
+          Check Out Some of My Works.
+          </p>
+        </div>
+        <div className="items-center m-auto sm:mx-10 md:mx-0 ">
+          <p className="mb-10 xxs:mx-2 md:mx-0 text-[#888888] font-Poppins xs:text-sm md:text-lg">
+          I’m a full-stack developer specializing in building (and
+            occasionally designing) exceptional digital experiences. Currently,
+            I’m focused on building responsive full-stack web applications.
+          </p>
+        </div>
+        
         <div className="grid sm:grid-cols-2  md:grid-cols-3 gap-4">
           <div
             style={{

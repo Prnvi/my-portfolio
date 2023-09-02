@@ -17,7 +17,7 @@ function App() {
           <AboutNew/>
           <SkiilsProfile/>
           <Resume/>
-          <Skills/>
+          {/* <Skills/> */}
            <Work/>
           {/* <Routes>
             <Route path = "/" element={<MainPage/>}/>

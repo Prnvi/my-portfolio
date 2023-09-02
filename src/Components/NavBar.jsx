@@ -7,9 +7,9 @@ const NavBar = () => {
     const [nav, setNav] = useState(false)
     const handleClick =() => setNav(!nav)
     return (
-    <div className='fixed left-[10%] xs:w-[25%] lg:w-[15%] xs:h-[6%] md:h-[60px] flex justify-between items-center px-4 bg-black text-white'>
+    <div className='fixed left-[10%] w-auto py-3  h-auto flex flex-row-reverse justify-between items-center px-4 bg-black text-white'>
       <div className=''>
-      <div className='px-4'>
+      <div className='px-4 font-Poppins text-xl font-semibold tracking-widest text-opacity-95'>
           PRANAVI
       </div>
         <div className='px-4 hidden md:flex'>
@@ -20,17 +20,17 @@ const NavBar = () => {
       </div>
       
         {/* Hamburger menu */}
-        <div onClick={handleClick} className=' z-10'>
+        <div onClick={handleClick} className='text-[#FF0077] z-10'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
         {/* Mobile Menu */}
-        <ul className={!nav? 'hidden': 'absolute top-0 left-0 w-full h-[60vh] flex flex-col justify-center items-center'
+        <ul className={!nav? 'hidden': 'absolute top-0 left-0 w-full h-[40vh] bg-black flex flex-col justify-center items-center text-[#FF0077] '
         }>
-                <li className='py-4 text-sm'>Home</li>
-                <li className='py-4 text-sm'>About</li>
-                <li className='py-4 text-sm'>Skills</li>
-                <li className='py-4 text-sm'>Work</li>
-                <li className='py-4 text-sm'>Contact</li>
+                <li className='py-3 text-sm transition-transform hover:translate-x-2'>Home</li>
+                <li className='py-3 text-sm transition-transform hover:translate-x-2'>About</li>
+                <li className='py-3 text-sm transition-transform hover:translate-x-2'>Resume</li>
+                <li className='py-3 text-sm transition-transform hover:translate-x-2'>Work</li>
+                <li className='py-3 text-sm transition-transform hover:translate-x-2'>Contact</li>
         </ul>
         {/* Social Icons */}
         {/* <div className="flex fixed fix-col top-[35%] left-0">
