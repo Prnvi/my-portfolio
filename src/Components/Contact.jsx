@@ -14,12 +14,11 @@ const Contact = () => {
             I'd Love To Hear From You.
           </p>
         </div>
-        <div className="items-center m-auto sm:mx-10 md:mx-0 ">
-          <p className="mb-10 xxs:mx-2 md:mx-0 text-[#888888] font-Poppins xs:text-sm md:text-lg">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. In
-            temporibus inventore quae maiores, deserunt expedita sapiente
-            laudantium voluptas dignissimos. Earum in reiciendis ipsam non
-            commodi doloremque quos corrupti possimus ab!
+        <div className="md:w-3/4 items-center  mx-auto ">
+          <p className="my-10 xxs:mx-2 md:mx-0 text-[#888888] font-Poppins xs:text-sm md:text-lg tracking-widest">
+            Whether you have a project in mind, a question about my work, or
+            just want to say hello, your thoughts and inquiries are valuable to
+            me. Drop me a message!
           </p>
         </div>
       </div>

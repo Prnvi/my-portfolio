@@ -19,7 +19,7 @@ const Resume = () => {
         </div>
 
         <div className=" md:w-[690px] items-center m-auto sm:mx-10 md:mx-auto ">
-          <p className="m-5 sm:mx-10 md:mx-0 text-[#888888] text-lg tracking-wide">
+          <p className="m-5 sm:mx-10 md:mx-0 text-[#888888] xxs:text-sm md:text-lg tracking-wide">
             I’m a full-stack developer specializing in building (and
             occasionally designing) exceptional digital experiences. Currently,
             I’m focused on building responsive full-stack web applications.

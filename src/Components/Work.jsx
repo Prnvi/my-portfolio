@@ -4,25 +4,26 @@ import LFImg from "../assets/Linked.FarmSite.png";
 const Work = () => {
   return (
     <div className="w-full h-screen bg-white text-center  md:mx-0 mt-28 xxs:px-4 md:px-0">
-      <div className="w-3/4 mx-auto  ">
+      <div className=" mx-auto  ">
         <div>
           <p className=" text-lg font-Poppins tracking-widest font-semibold inline text-[#FF0077]  ">
             WORK
           </p>
         </div>
-        <div className="pt-5 sm:pb-7 ">
+        <div className="pt-5  ">
           <p className=" xs:text-2xl md:text-4xl font-semibold  font-Poppins tracking-wide  inline text-[#313131]">
             Check Out Some of My Works.
           </p>
         </div>
-        <div className="items-center m-auto sm:mx-10 md:mx-0 ">
-          <p className="mb-10 xxs:mx-2 md:mx-0 text-[#888888] font-Poppins xs:text-sm md:text-lg">
-            I’m a full-stack developer specializing in building (and
-            occasionally designing) exceptional digital experiences. Currently,
-            I’m focused on building responsive full-stack web applications.
+        <div className="md:w-[67%] items-center m-auto sm:mx-10 md:mx-auto">
+          <p className="my-7 xxs:mx-10 md:mx-0 text-[#888888] xxs:text-sm md:text-lg tracking-wide ">
+            My portfolio is a canvas of my journey, showcasing the projects that
+            I've had the privilege to work on. From web design to development,
+            each project reflects my commitment to quality and an eye for
+            creativity. Feel free to explore each project.
           </p>
         </div>
-
+        <div className="w-[80%] mx-auto">
         <div className="grid sm:grid-cols-2  md:grid-cols-3 gap-4">
           <div
             style={{
@@ -46,6 +47,8 @@ const Work = () => {
             </div>
           </div>
         </div>
+        </div>
+        
       </div>
     </div>
   );
