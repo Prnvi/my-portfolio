@@ -3,13 +3,13 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="w-full h-screen bg-[#151515] text-center  pt-2 md:mx-0  xxs:px-4 md:px-0">
-      <div className="w-3/4 mx-auto  ">
+      <div className=" mx-auto  ">
         <div className="mt-28">
           <p className=" text-lg font-Poppins tracking-widest font-semibold inline text-[#FF0077]  ">
             CONTACT
           </p>
         </div>
-        <div className="pt-5 sm:pb-7 ">
+        <div className="pt-5">
           <p className=" xs:text-2xl md:text-4xl font-semibold  font-Poppins tracking-wide  inline text-white">
             I'd Love To Hear From You.
           </p>
