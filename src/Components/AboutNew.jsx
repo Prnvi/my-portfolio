@@ -16,8 +16,8 @@ const AboutNew = () => {
           </p>
         </div>
       </div>
-      <div className=" md:w-[800px] md:flex md:flex-row sm:flex sm:flex-col sm:items-center items-center mx-auto mt-2 mb-10 gap-8">
-        <div className="flex justify-center  m-auto">
+      <div className=" md:w-[800px] md:flex md:flex-row sm:flex sm:flex-col sm:items-center justify-center items-center mx-auto mt-2 mb-10 md:gap-3 lg:gap-8">
+        <div className="flex justify-center  ">
           <img
             className="w-[130px] h-[130px] "
             src={img}
@@ -29,8 +29,8 @@ const AboutNew = () => {
           />
         </div>
         <div className=" md:w-[600px] md:h-[200px] items-center m-auto sm:mx-10 md:mx-0 ">
-          <p className="m-10 xxs:mx-2 md:mx-0 text-[#888888]  xs:text-sm md:text-lg">
-            I’m a full-stack developer, passionate about crafting exceptional
+          <p className="m-10 xxs:mx-2 md:mx-0 text-[#888888]  xxs:text-sm md:text-lg">
+            I’m a full-stack developer passionate about crafting exceptional
             digital experiences, (and occasionally designing) exceptional
             digital experiences. My current focus revolves around building
             responsive full-stack web applications.

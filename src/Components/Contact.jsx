@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="w-full h-screen bg-[#151515] text-center  pt-2 md:mx-0  xxs:px-4 md:px-0">
-      <div className=" mx-auto  ">
+      <div className=" mx-auto ">
         <div className="mt-28">
           <p className=" text-lg font-Poppins tracking-widest font-semibold inline text-[#FF0077]  ">
             CONTACT
@@ -21,6 +21,52 @@ const Contact = () => {
             me. Drop me a message!
           </p>
         </div>
+      </div>
+      <div className="flex items-center text-center justify-center">
+        <form className="w-full max-w-lg">
+          <div className="flex flex-col items-center py-2 ">
+            <label for="name" className="block"></label>
+            <input
+              className="my-5 appearance-none bg-transparent border-b border-[#888888] focus:border-[#FF0077]  w-full text-white mr-3 py-1 px-2 leading-tight focus:outline-none"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              aria-label="Full name"
+              minLength={3}
+            />
+
+            <label for="email" className="block"></label>
+            <input
+              className="my-5 appearance-none bg-transparent border-b border-[#888888] focus:border-[#FF0077]  w-full text-white mr-3 py-1 px-2 leading-tight focus:outline-none"
+              type="text"
+              id="email"
+              name="email"
+              placeholder="email"
+              aria-label="email"
+            />
+
+            <label for="subject" className="block"></label>
+            <input
+              className="my-5 appearance-none bg-transparent border-b border-[#888888] focus:border-[#FF0077]  w-full text-white mr-3 py-1 px-2 leading-tight focus:outline-none"
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="subject"
+              aria-label="subject"
+            />
+
+            <label for="message" className="block"></label>
+            <input
+              className="my-5 appearance-none bg-transparent border-b border-[#888888] focus:border-[#FF0077]  w-full text-white mr-3 py-1 px-2 leading-tight focus:outline-none"
+              type="text"
+              id="message"
+              name="message"
+              placeholder="message"
+              aria-label="message"
+            />
+          </div>
+        </form>
       </div>
     </div>
   );

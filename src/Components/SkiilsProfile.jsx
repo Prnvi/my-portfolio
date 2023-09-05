@@ -4,13 +4,13 @@ const SkiilsProfile = () => {
   return (
     <div
       name="skillProfile"
-      className="w-full lg:h-screen bg-white text-[#313131] sm:px-20  md:px-30"
+      className="w-full lg:h-screen bg-white text-[#313131]   md:px-30"
     >
-      <div className=" sm:flex sm:flex-col lg:grid lg:grid-cols-2 gap-5 justify-center  w-full h-full  mx-auto ">
-        <div className="md:w-[450px] mx-auto">
+      <div className=" xxs:flex xxs:flex-col lg:grid lg:grid-cols-2 gap-5 justify-center  w-full h-full  mx-auto ">
+        <div className="md:w-[650px] lg:w-[450px] mx-auto">
           <div className="profileDiv md:px-5 xxs:px-9 ">
             <div className="flex items-center xxs:justify-center md:justify-start">
-              <p className=" sm:align-middle text-xl font-Poppins tracking-widest font-bold inline text-[#313131] ">
+              <p className=" xxs:align-middle text-xl font-Poppins tracking-widest font-bold inline text-[#313131] ">
                 PROFILE
               </p>
             </div>
@@ -20,7 +20,7 @@ const SkiilsProfile = () => {
               maxime similique laboriosam debitis porro delectus quibusdam quo
               at cumque. Qui, ea.
             </p>
-            <div className="">
+            <div className="xxs:px-10 md:px-0">
               <p className="text-[#313131] font-bold text-base py-2">
                 FULL NAME:
                 <br />
@@ -60,10 +60,10 @@ const SkiilsProfile = () => {
           </div>
         </div>
 
-        <div className="md:w-[450px] mx-auto">
+        <div className="md:w-[650px] lg:w-[450px] mx-auto">
           <div className="skillDiv md:px-5 xxs:px-9">
             <div className="flex items-center xxs:justify-center md:justify-start">
-              <p className="text-xl font-Poppins tracking-widest font-bold inline  text-[#313131]">
+              <p className=" xxs:align-middle text-xl font-Poppins tracking-widest font-bold inline  text-[#313131]">
                 SKILLS
               </p>
             </div>
@@ -73,7 +73,7 @@ const SkiilsProfile = () => {
               maxime similique laboriosam debitis porro delectus quibusdam quo
               at cumque. Qui, ea.
             </p>
-            <div className="">
+            <div className="xxs:px-10 md:px-0">
               <p className="text-[#313131] font-bold text-base py-2">
                 TECH SKILLS
                 <br />
