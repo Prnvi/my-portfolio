@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../assets/IMG_me.jpeg";
+import BackToTop from "./BackToTop";
 
 const AboutNew = () => {
   return (
@@ -37,6 +38,7 @@ const AboutNew = () => {
           </p>
         </div>
       </div>
+      <BackToTop/>
     </div>
   );
 };
