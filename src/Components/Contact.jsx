@@ -8,6 +8,9 @@ import emailjs from "@emailjs/browser";
 //   const onSubmit = (data) => {
 //     console.log(data);
 //   };
+const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+const templateId = process.env.TEMPLATE_ID;
+const publicKey = process.env.PUBLIC_KEY;
 const Contact = () => {
   //   const handleSubmit = (e) => {
   //     e.preventDefault(); // Prevent the default form submission
@@ -25,9 +28,6 @@ const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-    const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-    const templateId = process.env.TEMPLATE_ID;
-    const publicKey = process.env.PUBLIC_KEY;
     e.preventDefault();
 
     emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
