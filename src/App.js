@@ -8,6 +8,7 @@ import SkiilsProfile from './Components/SkiilsProfile';
 import AboutNew from './Components/AboutNew';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
+import BackToTop from './Components/BackToTop';
 function App() {
   return (
     <div className="App">
@@ -22,11 +23,13 @@ function App() {
            <Work/>
            <Contact/>
           {/* <Routes>
+            
             <Route path = "/" element={<MainPage/>}/>
             <Route path = "/about" element={<AboutNew/>}/>
             <Route path = "/skills" element={Skills}/>
           </Routes> */}
         </Router>
+        <BackToTop/>
      
       
     </div>

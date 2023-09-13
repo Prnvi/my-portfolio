@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import bgImg from "../assets/intro-bg.jpg";
+import { Link } from "react-router-dom";
 
 const MainPage = () => {
   return (
@@ -24,6 +25,7 @@ const MainPage = () => {
             occasionally designing) exceptional digital experiences. Currently,
             I’m focused on building responsive full-stack web applications.
           </p> */}
+
           <div className="mx-auto py-3">
             <button className="text-white group border-[3px] border-[#FF0077] px-6 py-3 my-2 align-center flex items-center hover:bg-[#FF0077] hover:border-[#FF0077]">
               More About Me
