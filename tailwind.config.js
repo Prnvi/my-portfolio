@@ -40,6 +40,7 @@ module.exports = {
     extend: {
       fontFamily:{
         'Poppins':['Poppins'],
+        'Raleway':['Raleway'],
       }
     },
   },

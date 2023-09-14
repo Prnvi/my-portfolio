@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from "./Components/NavBar";
 import MainPage from "./Components/MainPage";
@@ -9,6 +10,8 @@ import AboutNew from './Components/AboutNew';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import BackToTop from './Components/BackToTop';
+
+
 function App() {
   return (
     <div className="App">
