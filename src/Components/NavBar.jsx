@@ -45,6 +45,7 @@ const NavBar = () => {
           Contact
         </li>
       </ul>
+      
       {/* Social Icons */}
       {/* <div className="flex fixed fix-col top-[35%] left-0">
             <ul>

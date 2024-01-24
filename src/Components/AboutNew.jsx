@@ -29,16 +29,16 @@ const AboutNew = () => {
             }}
           />
         </div>
-        <div className=" md:w-[600px] md:h-[200px] items-center m-auto sm:mx-10 md:mx-0 ">
-          <p className="m-10 xxs:mx-2 md:mx-0 text-[#888888]  xxs:text-sm md:text-lg">
+        <div className=" md:w-[650px]  items-center m-auto sm:mx-10 md:mx-0 ">
+          <p className="my-10 xxs:mx-2 md:mx-0 text-[#888888]  xxs:text-sm md:text-lg">
             I’m a full-stack developer passionate about crafting exceptional
-            digital experiences, (and occasionally designing) exceptional
-            digital experiences. My current focus revolves around building
-            responsive full-stack web applications.
+            digital experiences, (and occasionally designing). My current focus
+            is on building dynamic, user-friendly and responsive web
+            applications.
           </p>
         </div>
       </div>
-      <BackToTop/>
+      <BackToTop />
     </div>
   );
 };

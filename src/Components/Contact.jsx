@@ -55,7 +55,7 @@ function Contact() {
         </div>
       </div>
       <div className="flex items-center text-center justify-center pb-20">
-        <form ref={form} onSubmit={sendEmail} className="w-full max-w-xl">
+        <form ref={form} onSubmit={sendEmail} className="w-full max-w-2xl">
           <input
             type="text"
             name="from_name"
@@ -85,9 +85,9 @@ function Contact() {
           ></textarea>
           <button
             type="submit"
-            className="font-Poppins tracking-10  bg-[#FF0077] hover:bg-[#cc005f] border-none text-md font-semibold text-white py-3 px-16 my-10"
+            className="font-Poppins tracking-widest  bg-[#FF0077] hover:bg-[#cc005f] border-none text-md font-semibold text-white py-3 px-16 my-10"
           >
-            Submit
+            SUBMIT
           </button>
           <div className="text-white text-xs text-center py-4">
             {result ? <Result /> : null}

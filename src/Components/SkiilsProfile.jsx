@@ -16,9 +16,7 @@ const SkiilsProfile = () => {
             </div>
 
             <p className="text-[#888888] py-5 xs:text-center md:text-left">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-              maxime similique laboriosam debitis porro delectus quibusdam quo
-              at cumque. Qui, ea.
+              
             </p>
             <div className="xxs:px-10 md:px-0">
               <p className="text-[#313131] font-bold text-base py-2">
@@ -69,9 +67,7 @@ const SkiilsProfile = () => {
             </div>
 
             <p className="text-[#888888] py-5 xxs:text-center md:text-left">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-              maxime similique laboriosam debitis porro delectus quibusdam quo
-              at cumque. Qui, ea.
+           
             </p>
             <div className="xxs:px-10 md:px-0">
               <p className="text-[#313131] font-bold text-base py-2">
