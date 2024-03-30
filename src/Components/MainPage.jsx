@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import bgImg from "../assets/intro-bg.jpg";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import bgImg from "../assets/girl.jpg";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const MainPage = () => {
+  // const [setClicked] = useState(true);
+  //** learning: you didnt need useState here!! */
+  const moreAboutMe = () => {
+    // setClicked(true);
+    window.scrollTo({
+      top: 710,
+      behavior: "smooth",
+    });
+  };
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f] ">
       <div
@@ -28,29 +36,36 @@ const MainPage = () => {
           </p> */}
 
           <div className="mx-auto py-3">
-            <button className="text-white group border-[3px] border-[#FF0077] px-6 py-3 my-2 align-center flex items-center hover:bg-[#FF0077] hover:border-[#FF0077]">
-              More About Me
-              <span className="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-3 " />
-              </span>
-            </button>
+            {/* <Link to="/about"> */}
+            {
+              <button
+                className="text-white group border-[3px] border-[#FF0077] px-6 py-3 my-2 align-center flex items-center hover:bg-[#FF0077] hover:border-[#FF0077]"
+                onClick={moreAboutMe}
+              >
+                More About Me
+                <span className="group-hover:rotate-90 duration-300">
+                  <HiArrowNarrowRight className="ml-3 " />
+                </span>
+              </button>
+            }
+            {/* </Link> */}
           </div>
           <div className="mx-auto py-3 flex flex-row">
-                <a
-                  className="flex justify-between items-center w-full text-gray-300"
-                  href="/"
-                >
-                  <FaLinkedin size={30} />
-                </a>
-                    <a className='flex justify-between items-center w-full text-gray-300'
-                    href='/'>
-                     <FaGithub size={30} />
-                    </a>
+            <a
+              className="flex justify-between items-center w-full text-gray-300 mx-5 "
+              href="https://www.linkedin.com/in/pranavi-lakkavajjala"
+            >
+              <FaLinkedin size={40} />
+            </a>
+            <a
+              className="flex justify-between items-center w-full text-gray-300 mx-5"
+              href="https://github.com/Prnvi"
+            >
+              <FaGithub size={40} />
+            </a>
           </div>
         </div>
-        {/* */}
       </div>
-      {/* Container */}
     </div>
   );
 };

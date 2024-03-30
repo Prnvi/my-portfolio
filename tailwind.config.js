@@ -41,6 +41,7 @@ module.exports = {
       fontFamily:{
         'Poppins':['Poppins'],
         'Raleway':['Raleway'],
+        
       }
     },
   },
