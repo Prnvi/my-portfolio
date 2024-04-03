@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import img from "../assets/Pranavi(4).png";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 // import { HiOutlineMail } from "react-icons/hi";
 // import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -8,18 +7,10 @@ const NavBar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="z-10 fixed left-[0%] w-auto py-3 h-auto flex flex-row-reverse justify-between items-center px-3 bg-black text-white">
+    <div className="z-10 fixed left-[2%] w-auto py-3 h-auto flex flex-row-reverse justify-between items-center px-4 bg-black text-white">
       <div className="">
-        <div className="flex justify-center  ">
-          <img
-            className="w-[130px] h-[60px] "
-            src={img}
-            alt="pranavi"
-            style={{
-              objectFit: "cover",
-              // borderRadius: "50%",
-            }}
-          />
+        <div className="px-4 font-Poppins text-xl font-semibold tracking-widest text-opacity-95">
+          PRANAVI
         </div>
         <div className="px-4 hidden md:flex">
           <ul className="hidden md:flex"></ul>
@@ -27,10 +18,7 @@ const NavBar = () => {
       </div>
 
       {/* Hamburger menu */}
-      <div
-        onClick={handleClick}
-        className="text-[#FF0077] z-10 hover:text-blue-50 "
-      >
+      <div onClick={handleClick} className="text-[#FF0077] z-10 hover:text-blue-50 ">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
       {/* Mobile Menu */}
@@ -57,7 +45,7 @@ const NavBar = () => {
           Contact
         </li>
       </ul>
-
+      
       {/* Social Icons */}
       {/* <div className="flex fixed fix-col top-[35%] left-0">
             <ul>

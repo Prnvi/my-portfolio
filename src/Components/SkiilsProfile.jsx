@@ -110,17 +110,18 @@ const SkiilsProfile = () => {
             </div>
           </div>
         </div>
-        <div className="mx-auto py-5 md:px-5 xxs:px-20 flex justify-center">
+        {/* <div className="mx-auto py-5 md:px-5 xxs:px-20 flex justify-center">
           <button className=" xxs:w-[180px] md:w-[240px] md:h-[60px] text-[#313131] group border-[3px] border-[#313131] px-6 py-3 my-2  flex justify-center items-center font-Poppins font-semibold tracking-wide hover:border-[#FF0077]  hover:text-[#FF0077] ">
             HIRE ME
           </button>
-        </div>
-        <div className="mx-auto py-5 md:px-5 xxs:px-20 lg:mr-[280px]  flex justify-center ">
+        </div> */}
+        
+      </div>
+      <div className="mx-auto py-10 md:px-5 xxs:px-20 lg:mr-[100px]  flex justify-center ">
           <button className="md:w-[240px] md:h-[60px]  text-white group border-2 bg-[#313131] border-[#313131] px-6 py-3 my-2  justify-center flex items-center font-Poppins font-semibold tracking-wide hover:bg-[#FF0077] hover:border-[#FF0077]">
             DOWNLOAD CV
           </button>
         </div>
-      </div>
     </div>
   );
 };
