@@ -10,7 +10,7 @@ const NavBar = () => {
     <div className="z-10 fixed left-[2%] w-auto py-3 h-auto flex flex-row-reverse justify-between items-center px-4 bg-black text-white">
       <div className="">
         <div className="px-4 font-Poppins text-xl font-semibold tracking-widest text-opacity-95">
-          PRANAVI
+          PRANAVII
         </div>
         <div className="px-4 hidden md:flex">
           <ul className="hidden md:flex"></ul>
