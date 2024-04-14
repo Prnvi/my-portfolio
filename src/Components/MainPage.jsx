@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import bgImg from "../assets/girl.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const MainPage = () => {
-  // const [setClicked] = useState(true);
   //** learning: you didnt need useState here!! */
   const moreAboutMe = () => {
     // setClicked(true);

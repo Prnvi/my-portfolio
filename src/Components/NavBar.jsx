@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
+// FaGithub, FaLinkedin
 // import { HiOutlineMail } from "react-icons/hi";
 // import { BsFillPersonLinesFill } from "react-icons/bs";
 // import { Link } from 'react-scroll';
@@ -18,7 +19,10 @@ const NavBar = () => {
       </div>
 
       {/* Hamburger menu */}
-      <div onClick={handleClick} className="text-[#FF0077] z-10 hover:text-blue-50 ">
+      <div
+        onClick={handleClick}
+        className="text-[#FF0077] z-10 hover:text-blue-50 "
+      >
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
       {/* Mobile Menu */}
@@ -42,10 +46,10 @@ const NavBar = () => {
           Work
         </li>
         <li className="py-3 text-sm transition-transform hover:translate-x-2">
-          Contact
+          Contactt
         </li>
       </ul>
-      
+
       {/* Social Icons */}
       {/* <div className="flex fixed fix-col top-[35%] left-0">
             <ul>

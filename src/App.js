@@ -1,9 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 import NavBar from "./Components/NavBar";
 import MainPage from "./Components/MainPage";
 // import About from "./Components/About";
-import Skills from "./Components/Skills";
+// import Skills from "./Components/Skills";
 import Work from './Components/Work';
 import SkiilsProfile from './Components/SkiilsProfile';
 import AboutNew from './Components/AboutNew';
