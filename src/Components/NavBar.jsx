@@ -46,7 +46,7 @@ const NavBar = () => {
           Work
         </li>
         <li className="py-3 text-sm transition-transform hover:translate-x-2">
-          Contactt
+          Contact
         </li>
       </ul>
 
