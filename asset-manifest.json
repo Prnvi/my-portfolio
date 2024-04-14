@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.70b7ad21.css",
+    "main.js": "/my-portfolio/static/js/main.a8099ea7.js",
+    "static/media/girl.jpg": "/my-portfolio/static/media/girl.be3f9de53ad736baea05.jpg",
+    "static/media/Linked.FarmSite.png": "/my-portfolio/static/media/Linked.FarmSite.60712c74384c17952d3d.png",
+    "static/media/IMG_me.jpeg": "/my-portfolio/static/media/IMG_me.28251cf3dc860a565b07.jpeg",
+    "index.html": "/my-portfolio/index.html",
+    "main.70b7ad21.css.map": "/my-portfolio/static/css/main.70b7ad21.css.map",
+    "main.a8099ea7.js.map": "/my-portfolio/static/js/main.a8099ea7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70b7ad21.css",
+    "static/js/main.a8099ea7.js"
+  ]
+}
