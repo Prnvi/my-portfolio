@@ -1,6 +1,7 @@
 import React from "react";
 import LFImg from "../assets/Linked.FarmSite.png";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Work = () => {
   return (
@@ -29,7 +30,8 @@ const Work = () => {
           <div className="  grid sm:grid-cols-1  md:grid-cols-1 md:gap-4">
             {/* <Link to="https://deploy-preview-116--imaginative-bombolone-395432.netlify.app"> */}
             <Link to="https://www.linkedfarm.eu/">
-              <div
+              <motion.div
+                whileHover={{ scale: 1.1 }}
                 style={{
                   backgroundImage: `url(${LFImg})`,
                   backgroundSize: "cover",
@@ -42,7 +44,7 @@ const Work = () => {
                   <span></span>
                   <div></div>
                 </div>
-              </div>
+              </motion.div>
             </Link>
           </div>
         </div>
