@@ -8,7 +8,7 @@ const Work = () => {
       <div className=" mx-auto  ">
         <div>
           <p className=" text-lg font-Poppins tracking-widest font-semibold inline text-[#FF0077]  ">
-            WORK
+            MY WORK
           </p>
         </div>
         <div className="pt-5  ">
@@ -20,13 +20,15 @@ const Work = () => {
           <p className="my-7 xxs:mx-10 md:mx-0 text-[#888888] xxs:text-sm md:text-lg tracking-wide ">
             My portfolio is a canvas of my journey, showcasing the projects that
             I've had the privilege to work on. From web design to development,
-            each project reflects my commitment to quality and an eye for
-            creativity. Feel free to explore each project.
+            each project reflects my commitment to quality and an eye for detail
+            and creativity. Feel free to explore!
           </p>
         </div>
         <div className="w-[80%] mx-auto">
-          <div className="grid sm:grid-cols-2  md:grid-cols-3 gap-4">
-            <Link to="https://deploy-preview-116--imaginative-bombolone-395432.netlify.app">
+          {/* this div coloum grids can be changed in future sm:grid-cols-2 md:grid-cols-2 */}
+          <div className="  grid sm:grid-cols-1  md:grid-cols-1 md:gap-4">
+            {/* <Link to="https://deploy-preview-116--imaginative-bombolone-395432.netlify.app"> */}
+            <Link to="https://www.linkedfarm.eu/">
               <div
                 style={{
                   backgroundImage: `url(${LFImg})`,

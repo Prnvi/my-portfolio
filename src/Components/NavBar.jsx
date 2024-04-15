@@ -7,6 +7,15 @@ import { FaBars, FaTimes } from "react-icons/fa";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+  // console.log(document.documentElement.clientHeight);
+  const scrollToWindow = (lgtopvalue) => {
+    // setClicked(true);
+    window.scrollTo({
+      top: lgtopvalue,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="z-10 fixed left-[2%] w-auto py-3 h-auto flex flex-row-reverse justify-between items-center px-4 bg-black text-white">
       <div className="">
@@ -33,19 +42,34 @@ const NavBar = () => {
             : "absolute top-0 left-0 w-full h-[40vh] bg-black flex flex-col justify-center items-center text-[#FF0077] "
         }
       >
-        <li className="py-3 text-sm transition-transform hover:translate-x-2">
+        <li
+          className="py-3 text-sm transition-transform hover:translate-x-2"
+          onClick={() => scrollToWindow(0)}
+        >
           Home
         </li>
-        <li className="py-3 text-sm transition-transform hover:translate-x-2">
+        <li
+          className="py-3 text-sm transition-transform hover:translate-x-2"
+          onClick={() => scrollToWindow(770)}
+        >
           About
         </li>
-        <li className="py-3 text-sm transition-transform hover:translate-x-2">
+        <li
+          className="py-3 text-sm transition-transform hover:translate-x-2"
+          onClick={() => scrollToWindow(1900)}
+        >
           Resume
         </li>
-        <li className="py-3 text-sm transition-transform hover:translate-x-2">
+        <li
+          className="py-3 text-sm transition-transform hover:translate-x-2"
+          onClick={() => scrollToWindow(3940)}
+        >
           Work
         </li>
-        <li className="py-3 text-sm transition-transform hover:translate-x-2">
+        <li
+          className="py-3 text-sm transition-transform hover:translate-x-2"
+          onClick={() => scrollToWindow(4750)}
+        >
           Contact
         </li>
       </ul>

@@ -31,10 +31,10 @@ const AboutNew = () => {
         </div>
         <div className=" md:w-[650px]  items-center m-auto sm:mx-10 md:mx-0 ">
           <p className="my-10 xxs:mx-2 md:mx-0 text-[#888888]  xxs:text-sm md:text-lg">
-            I’m a full-stack developer passionate about crafting exceptional
-            digital experiences, (and occasionally designing). My current focus
-            is on building dynamic, user-friendly and responsive web
-            applications.
+            I’m a passionate web developer, crafting exceptional digital
+            experiences, (and occasionally designing). I prefer lightness and
+            minimalism in my websites. My current focus is on building dynamic,
+            user-friendly and responsive web applications.
           </p>
         </div>
       </div>

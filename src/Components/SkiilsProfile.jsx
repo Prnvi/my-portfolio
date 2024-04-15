@@ -115,13 +115,18 @@ const SkiilsProfile = () => {
             HIRE ME
           </button>
         </div> */}
-        
       </div>
+
       <div className="mx-auto py-10 md:px-5 xxs:px-20 lg:mr-[100px]  flex justify-center ">
+        <a
+          href={require("../assets/Pranavi_Resume.pdf")}
+          download="Pranavi_Resume.pdf"
+        >
           <button className="md:w-[240px] md:h-[60px]  text-white group border-2 bg-[#313131] border-[#313131] px-6 py-3 my-2  justify-center flex items-center font-Poppins font-semibold tracking-wide hover:bg-[#FF0077] hover:border-[#FF0077]">
             DOWNLOAD CV
           </button>
-        </div>
+        </a>
+      </div>
     </div>
   );
 };
