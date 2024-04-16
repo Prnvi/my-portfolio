@@ -1,12 +1,29 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 // FaGithub, FaLinkedin
 // import { HiOutlineMail } from "react-icons/hi";
 // import { BsFillPersonLinesFill } from "react-icons/bs";
 // import { Link } from 'react-scroll';
+
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+
+  let menuRef = useRef();
+
+  useEffect(() => {
+    let handler = (e) => {
+      if (!menuRef.current.contains(e.target)) {
+        setNav(false);
+        console.log(menuRef.current);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => {
+      document.removeEventListener("mousedown", handler);
+    };
+  });
+
   // console.log(document.documentElement.clientHeight);
   const scrollToWindow = (lgtopvalue) => {
     // setClicked(true);
@@ -22,9 +39,6 @@ const NavBar = () => {
         <div className="px-4 font-Poppins text-xl font-semibold tracking-widest text-opacity-95">
           PRANAVI
         </div>
-        <div className="px-4 hidden md:flex">
-          <ul className="hidden md:flex"></ul>
-        </div>
       </div>
 
       {/* Hamburger menu */}
@@ -36,6 +50,7 @@ const NavBar = () => {
       </div>
       {/* Mobile Menu */}
       <ul
+        ref={menuRef}
         className={
           !nav
             ? "hidden"

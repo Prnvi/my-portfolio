@@ -13,7 +13,7 @@ const MainPage = () => {
     });
   };
   return (
-    <div name="home" className="w-full h-screen bg-[#0a192f] ">
+    <div name="home" className="w-full h-screen  ">
       <div
         className="bg-center bg-cover h-screen bg-img "
         style={{ backgroundImage: `url(${bgImg})` }}
