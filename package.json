@@ -1,5 +1,4 @@
 {
-  "homepage": "http://Prnvi.github.io/my-portfolio",
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -21,8 +20,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -48,7 +45,6 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "autoprefixer": "^9.8.8",
-    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
