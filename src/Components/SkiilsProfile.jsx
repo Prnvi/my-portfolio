@@ -38,7 +38,7 @@ const SkiilsProfile = () => {
                 JOB
                 <br />
                 <span className="inline-block pt-1 text-[#888888] font-thin tracking-wide ">
-                  Looking for Front-end Developer Role
+                  Looking for Front-end Developer Roles
                 </span>
               </p>
               <p className="text-[#313131] font-bold text-base py-2">
@@ -93,7 +93,7 @@ const SkiilsProfile = () => {
                 </span>
               </p>
               <p className="text-[#313131] font-bold text-base py-2">
-                Tech Stack- previous project
+                Tech Stack - previous project
                 <br />
                 <span className="inline-block pt-1 text-[#888888] font-thin tracking-wide ">
                   Linux, Oracle, Autosys, Fircosoft Suites
@@ -104,7 +104,7 @@ const SkiilsProfile = () => {
                 <br />
                 <span className="inline-block pt-1 text-[#888888] font-thin tracking-wide ">
                   Continuous Learner, Team Player, Reliable, Solution Oriented,
-                  Adaptability, Time management
+                  Time management.
                 </span>
               </p>
             </div>

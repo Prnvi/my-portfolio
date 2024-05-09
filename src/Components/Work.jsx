@@ -38,7 +38,7 @@ const Work = () => {
                   backgroundPosition: "center center",
                   backgroundRepeat: "no-repeat",
                 }}
-                className="xs:w-[150px] xs:h-[150px] lg:w-[290px] lg:h-[220px] shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
+                className=" work-images xs:w-[150px] xs:h-[150px] lg:w-[290px] lg:h-[220px] shadow-md shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
               >
                 <div>
                   <span></span>
